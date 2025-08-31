@@ -1,0 +1,8 @@
+# History
+
+In the late 1960s, the Defence Applied Research Projects Agency (DARPA) began the development of a wide area network for US government contractors and research agencies; ARPAnet. In the early 1980s, TCP/IP was developed and combined with the free availability of BSD Unix to universities, ARPAnet developed into the early Internet. In 1988 DARPA dismantled its public network and the US National Science Foundation (NSF) took over with NFSNET. In 1995 the Internet moved from the publicly funded NFSNET to commercial carriers. Originally, the Internet was small enough to have all hosts recorded in a single hosts file (Host names on-line, RFC606) HOSTS.TXT maintained by Stanford’s Network Information Centre (SRI NIC or InterNIC) from RFC625. This evolved into the /etc/hosts file still in modern Linux and to this day, we can manually insert records into a host file in almost any OS. But eventually the Internet became too big and complex for host files.
+
+1. There was too much load and traffic for a centralised system.
+2. Names had to be unique and there was no way to ensure this.
+3. With so many changes, consistency was impossible to maintain. This system was succeeded by the original specifications for DNS released as [RFC822](https://www.w3.org/Protocols/rfc822/) at the end of 1983.&#x20;
+4. Modern DNS is a hierarchical, decentralised database. It has a reference application called the Berkeley Internet Name Domain or BIND which was initially written at Berkeley in 1984. It is standardized by [RFC1034](https://datatracker.ietf.org/doc/html/rfc1034) and [RFC1035](https://datatracker.ietf.org/doc/html/rfc1035).
